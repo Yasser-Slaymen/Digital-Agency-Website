@@ -1,4 +1,3 @@
-// import {Link, Route, Routes} from 'react-router-dom'
 import "./App.css";
 import ThirdSection from "./Pages/ThirdSection";
 import HeadSect from "./Pages/HeadSect";
