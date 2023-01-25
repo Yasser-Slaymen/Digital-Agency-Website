@@ -4,9 +4,8 @@ import ThirdSection from "./Pages/ThirdSection";
 import HeadSect from "./Pages/HeadSect";
 import PrimarySection from "./Pages/PrimarySection";
 import SecondSection from "./Pages/SecondSection";
-// import FouthSection from "./Pages/FourthSection";
+import FouthSection from "./Pages/FourthSection";
 import FooterSection from "./Pages/FooterSection";
-// import Jst from "./lib/Components/Jstn";
 
  function App() {
 
@@ -17,7 +16,7 @@ import FooterSection from "./Pages/FooterSection";
         <PrimarySection />
         <SecondSection />
         <ThirdSection />
-        {/* <FouthSection /> */}
+        <FouthSection />
         <FooterSection />
       </div>
     )

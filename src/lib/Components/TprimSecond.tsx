@@ -3,6 +3,8 @@ type PrimSacondprops = {
   children: ReactNode;
 };
 function TprimSecond({ children }: PrimSacondprops) {
-  return <>{children}</>;
+  return (
+<>{children}</>
+  ) 
 }
 export default TprimSecond;
