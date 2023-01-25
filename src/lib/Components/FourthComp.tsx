@@ -4,6 +4,7 @@ import Tfourth from "./Tfourth";
 import "../Stylingcomponents/FourthComp.css";
 import Button_4 from "../Images/button_4.png";
 import { gsap } from "gsap";
+// import { gsap } from '@gsap/business'
 import { useLayoutEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -43,7 +44,6 @@ function FourthComp() {
             trigger: details_1.current,
             start: "top center",
             end: "+=500",
-            onEnterBack: (self) => console.log("progress:", self.progress),
           },
         }
       );
@@ -61,7 +61,6 @@ function FourthComp() {
             trigger: details_2.current,
             start: "top center",
             end: "+=500",
-            onEnterBack: (self) => console.log("progress:", self.progress),
           },
         }
       );
@@ -79,7 +78,6 @@ function FourthComp() {
             trigger: details_3.current,
             start: "top center",
             end: "+=500",
-            onEnterBack: (self) => console.log("progress:", self.progress),
           },
         }
       );
