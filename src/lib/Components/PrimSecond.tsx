@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 function PrimSecond() {
   // gsap
-  const ap = useRef();
+  // const ap = useRef();
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       gsap.fromTo(
@@ -55,7 +55,7 @@ function PrimSecond() {
           },
         }
       );
-    }, ap);
+    });
 
     return () => ctx.revert();
   });
@@ -63,7 +63,7 @@ function PrimSecond() {
   return (
     <>
       <TprimSecond>
-        <div className="primsacond" ref={ap}>
+        <div className="primsacond" >
           <img className="img-prim1" src={Ellipe} alt="ellipe" />
           <img className="img-prim2" src={Sid} alt="img" />
           <img className="img-prim3" src={Pbuton} alt="img" />
